@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="background-color: black;">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <a href="HomePage.php" class="navbar-brand">
+        <img src="logo.png" alt="BLOGS" style="width: 50px;" class="ms-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./HomePage.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.php">Authors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./HomePage.php">All Blogs</a>
+          </li>
+          <!-- <li class="nav-item">
+                    <a class="nav-link" href="Login.html">Login</a>
+                  </li> -->
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              User
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./post.php">Post</a></li>
+              <li><a class="dropdown-item" href="./index.html">Logout</a></li>
+              <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            </ul>
+          </li>
+
+
+        </ul>
+        <form action="./search.php" class="d-flex" role="search">
+          <input class="form-control me-2" name="searchinput" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
